@@ -1,0 +1,727 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* css for header section starts here  */
+
+header {
+    height: 140px;
+    width: 100%;
+}
+
+.topnav {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(230, 233, 237);
+    overflow: hidden;
+}
+
+.topnavlist {
+    list-style: none;
+}
+
+.topnavlistitem {
+    float: left;
+    padding: 12px 20px 10px 20px;
+    text-decoration: none;
+    color: rgb(108, 107, 107);
+    border-right: .5px solid rgb(128, 128, 128, 0.3);
+    font-size: 15px;
+}
+
+.firstlist {
+    padding-left: 30px;
+}
+
+.lastlist {
+    border: none;
+}
+
+.topnavlistitem:hover {
+    color: white;
+    background-color: rgba(243, 82, 90, 255);
+}
+
+.topnavlistitemright1 {
+    float: right;
+    padding: 12px 20px 10px 70px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(243, 82, 90, 255);
+    font-size: 15px;
+    border-right: 2px solid rgba(243, 237, 237, 0.3);
+
+}
+
+.topnavlistitemright2 {
+    float: right;
+    padding: 12px 50px 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(243, 82, 90, 255);
+    font-size: 15px;
+}
+
+.bottomnav {
+    height: 100px;
+    width: 100%;
+}
+
+.pages {
+    vertical-align: top;
+}
+
+.bottomnav .logo {
+    max-width: 35%;
+    padding: 20px 0px 20px 40px;
+}
+
+.bottomnavlistitem {
+    float: right;
+    padding-top: 43px;
+    border: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+}
+
+.lastbottomlist {
+    padding-right: 50px;
+    padding-left: 12px;
+}
+
+.bottomnavlistitem:hover {
+    background-color: transparent;
+    color: rgba(243, 82, 90, 255);
+}
+
+.cutdiv {
+    position: relative;
+    left: 68%;
+    height: 40px;
+    width: 100px;
+    background-color: rgba(243, 82, 90, 255);
+    transform: rotate(227deg);
+}
+
+/* css for header section ends here  */
+
+/* css for business consultancy section starts here  */
+
+.imagediv {
+    height: 828px;
+    width: 100%;
+    background-image: url(images/carousel-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    /* position: absolute; */
+    position: relative;
+}
+
+.backimg {
+    height: 828px;
+    width: 100%;
+    background-color: rgb(2, 2, 44);
+    opacity: .6;
+}
+
+.top {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+
+    top: 33%;
+    left: 43%;
+}
+
+.top1 {
+    position: absolute;
+    color: white;
+    top: 39%;
+    left: 24%;
+    font-size: 73px;
+}
+
+.top2 {
+    top: 50%;
+    left: 33%;
+}
+
+.getquote {
+    position: absolute;
+    top: 63%;
+    left: 38%;
+    height: 56px;
+    width: 161px;
+    border-radius: 62px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contactus {
+    left: 50%;
+}
+
+.getquote:hover {
+    background-color: rgba(243, 82, 90, 255);
+    color: white;
+}
+
+.leftarw {
+    position: absolute;
+
+    color: white;
+    top: 48%;
+    left: 2%;
+}
+
+.rightarw {
+    position: absolute;
+
+    color: white;
+    top: 48%;
+    left: 96%;
+}
+
+.leftarw:hover {
+    color: rgba(243, 82, 90, 255);
+}
+
+.rightarw:hover {
+    color: rgba(243, 82, 90, 255);
+}
+
+/* css for business consultancy section ends here  */
+
+/* css for welcome to consult section starts here  */
+
+.welcometoconsultdiv {
+
+    height: 510px;
+    width: 100%;
+    background-color: rgb(230, 233, 237);
+}
+
+.welcometoconsultfirstdiv {
+    height: 510px;
+    width: 50%;
+    float: left;
+}
+
+.welcometoconsultseconddiv {
+    height: 510px;
+    width: 50%;
+    background-color: rgba(243, 82, 90, 255);
+    float: right;
+}
+
+.mainheading {
+    font-size: 45px;
+    padding: 97px 0px 0px 45px;
+}
+
+.spn {
+    color: rgba(243, 82, 90, 255);
+}
+
+.belowheading {
+    color: rgba(243, 82, 90, 255);
+    font-size: 22px;
+    padding: 0px 70px 0px 50px;
+}
+
+.content {
+    padding: 0px 70px 0px 50px;
+    color: rgb(108, 107, 107);
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.getaquote {
+    top: 63%;
+    left: 38%;
+    height: 56px;
+    width: 175px;
+    border-radius: 62px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 50px;
+    background: rgb(210, 207, 207);
+}
+
+.getaquote:hover {
+    border: none;
+    background-color: rgba(243, 82, 90, 255);
+    color: white;
+}
+
+.interdiv {
+    margin: 97px 0px 0px 45px;
+}
+
+.imgdiv {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+
+    text-align: center;
+    border-radius: 50px;
+    float: left;
+}
+
+.interlogo {
+    margin-top: 12px;
+    color: rgba(243, 82, 90, 255);
+}
+
+.basicheading {
+    padding-left: 70px;
+}
+
+.headingcontent {
+    padding-left: 70px;
+    padding-top: 10px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.secondinterdiv {
+    margin-top: 60px;
+}
+
+/* css for welcome to consult section ends here  */
+
+/* css for offer section starts here  */
+
+.offers {
+    text-align: center;
+    height: max-content;
+    width: 100%;
+}
+
+.mainheadingofoffer {
+    font-size: 45px;
+    padding-top: 80px;
+}
+
+.baseline {
+    color: rgba(243, 82, 90, 255);
+    opacity: 0.4;
+    font-weight: bold;
+}
+
+.firstoffers {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    margin-left: 50px;
+    /* margin-right: 45px;  */
+}
+
+.one {
+    height: 340px;
+    width: 29%;
+    background-color: rgb(230, 233, 237);
+    flex-direction: column;
+    margin: 45px 45px 0px 0px;
+    text-align: center;
+}
+
+.imgdivforoffers {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(243, 82, 90, 255);
+
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 175px;
+    margin-top: 60px;
+}
+
+.interlogoforoffers {
+    margin-top: 24px;
+    color: white;
+}
+
+.contentoffers {
+    color: rgb(108, 107, 107);
+    font-size: 17px;
+    line-height: 28px;
+    /* margin: 20px; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.one:hover {
+    scale: 1.05;
+}
+
+/* css for offer section ends here  */
+
+/* css for why choose us section starts here  */
+
+.chooseus {
+    /* text-align: center; */
+    height: 870px;
+    width: 100%;
+}
+
+.mainheadingofchoose {
+    font-size: 45px;
+    padding-top: 80px;
+}
+
+.whychoose {
+    height: 400px;
+    width: 100%;
+    /* background-color: rgb(230, 233, 237); */
+    margin-top: 45px;
+    display: flex;
+}
+
+.firstdivoftext {
+    margin-left: 45px;
+    width: 29%;
+    height: 590px;
+    /* background-color: aqua; */
+}
+
+.imgdivforchooseus {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(243, 82, 90, 255);
+    text-align: center;
+    border-radius: 50px;
+    /* margin-left: 175px; */
+    /* margin-top: 60px; */
+}
+
+.interlogoforchooseus {
+    margin-top: 12px;
+    color: white;
+}
+
+.contentchoose {
+    color: rgb(108, 107, 107);
+    font-size: 17px;
+    line-height: 28px;
+    /* margin: 20px; */
+    /* padding-left: 30px;
+    padding-right: 30px;*/
+}
+
+.seconddivimage {
+    width: 100%;
+    height: 50%;
+}
+
+.underimg {
+    margin-top: -10px;
+    height: 50%;
+    width: 100%;
+    background-color: rgba(243, 82, 90, 255);
+    text-align: center;
+}
+
+.para {
+    color: white;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+
+.learnmore {
+    height: 56px;
+    width: 161px;
+    border-radius: 62px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.learnmore:hover {
+    background: rgb(210, 207, 207);
+}
+
+/* css for why choose us section ends here  */
+
+/* css for free quote section starts here  */
+
+.freequotetext {
+    height: 545px;
+    max-width: 50%;
+    background-color: rgb(230, 233, 237);
+    float: left;
+}
+
+.forpadding {
+    padding: 20px 45px 30px 45px;
+}
+
+.inputs {
+    margin: 0px 10px 14px 45px;
+    height: 53px;
+    border: .5px solid rgb(206, 195, 195);
+    width: 310px;
+    /* opacity: 0.6; */
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(108, 107, 107);
+    padding-left: 10px;
+}
+
+.inputs1 {
+    /* margin-bottom: 10px; */
+    height: 53px;
+    border: 1px solid rgb(206, 195, 195);
+    width: 310px;
+    /* opacity: 0.6; */
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(108, 107, 107);
+    padding-left: 10px;
+}
+
+.inputs2 {
+    /* margin-bottom: 10px; */
+    height: 53px;
+    border: none;
+    width: 320px;
+    /* opacity: 0.6; */
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+    background-color: rgb(174, 170, 170);
+}
+
+.inputs2:hover {
+    background-color: rgba(243, 82, 90, 255);
+}
+
+.quoteimg {
+    width: 50%;
+    height: 545px;
+    float: right;
+}
+
+.whitediv {
+    height: 540px;
+    width: 100%;
+}
+
+/* css for free quote section ends here  */
+
+/* css for team members section starts here  */
+
+.teammembers {
+    margin: 45px 0px 80px 45px;
+    max-width: 29%;
+}
+
+/* css for team members section ends here  */
+
+/* css for what client say section starts here  */
+
+.clientcontent {
+    color: rgb(108, 107, 107);
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 1.5px;
+
+}
+
+.imageofsay {
+    margin-left: 45px;
+}
+
+.imgdivforsay {
+    height: 90px;
+    width: 90px;
+    /* background-color: white; */
+    background-image: url(images/testimonial-1.jpg);
+    background-size: contain;
+    /* text-align: center; */
+    border-radius: 50px;
+    float: left;
+}
+
+.contentsay {
+    padding-left: 110px;
+    padding-top: 20px;
+}
+
+.contentpsay {
+    padding-left: 110px;
+    padding-top: 8px;
+    color: rgb(108, 107, 107);
+    letter-spacing: 1px;
+}
+
+.circle {
+    margin-top: 45px;
+    float: left;
+    /* margin-right: 10px; */
+}
+
+/* css for what client say section ends here  */
+
+/* css for blog post section starts here  */
+
+.two {
+    height: 430px;
+    width: 29%;
+    background-color: rgb(230, 233, 237);
+    flex-direction: column;
+    margin: 45px 45px 0px 0px;
+    /* text-align: center; */
+}
+
+.blogimage {
+    width: 100%;
+    height: 70%;
+}
+
+.fordate {
+    height: 30%;
+    width: 20%;
+    background-color: rgba(243, 82, 90, 255);
+    float: left;
+    margin-top: -4px;
+    text-align: center;
+}
+
+.date {
+    color: white;
+    margin-top: 30px;
+}
+
+.month {
+    color: white;
+    margin-top: 3px;
+}
+
+.year {
+    color: white;
+    margin-top: 3px;
+}
+
+.date:hover {
+    color: black;
+    scale: 1.3;
+}
+
+.month:hover {
+    color: black;
+    scale: 1.3;
+}
+
+.year:hover {
+    color: black;
+    scale: 1.3;
+}
+
+.blogcontent {
+    color: rgb(108, 107, 107);
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.bloghead {
+    margin-left: 110px;
+    margin-top: 13px;
+}
+
+/* css for blog post section ends here  */
+
+/* css for blog post section ends here  */
+
+.stayupdate {
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    background-color: rgba(243, 82, 90, 255);
+    margin-top: 85px;
+}
+
+.emailbox {
+    height: 30px;
+    border: none;
+    width: 30%;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 16px;
+    color: rgb(108, 107, 107);
+    padding: 10px;
+    float: left;
+    margin-left: 32%;
+}
+
+.signupbtn {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(15, 15, 60);
+    height: 50px;
+    width: 105px;
+    float: right;
+    margin-right: 29.5%;
+}
+
+/* css for blog post section ends here  */
+
+/* css for footer starts here  */
+
+footer {
+    height: 370px;
+    width: 100%;
+    background-color: rgb(15, 15, 60);
+}
+
+.firstfooter {
+    /* background-color: aqua; */
+    width: 15%;
+    height: 250px;
+    /* margin-top: 30px; */
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.footerhead {
+    padding-top: 50px;
+    color: white;
+}
+
+.footerlinks {
+    color: white;
+    padding-top: 15px;
+}
+
+.line {
+    margin-top: 50px;
+    opacity: 0.2;
+}
+
+.basepara {
+    margin-top: 20px;
+    color: white;
+}
+
+.basepara a {
+    color: white;
+}
+
+.forhover:hover {
+    scale: .7;
+}
+
+/* css for footer ends here  */
